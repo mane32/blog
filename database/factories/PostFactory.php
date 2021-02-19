@@ -8,8 +8,8 @@ use Faker\Generator as Faker;
 $factory->define(Post::class, function (Faker $faker) {
     return [
         'user_id' => 1,
-        'title' => $faker->$entence,
-        'body' => $faker->$text(800),
+        'title' => $faker->sentence,
+        'body' => $faker->text(800),
 
     ];
 });
