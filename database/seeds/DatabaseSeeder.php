@@ -13,7 +13,7 @@ class DatabaseSeeder extends Seeder
     {
         // $this->call(UsersTableSeeder::class);
         App\User::create([
-           'name' => 'Italo Morales F',
+           'name' => 'Vannesa Vega H',
            'email' => 'i@admin.com',
            'password' => bcrypt('123456')
         ]);
