@@ -12,7 +12,7 @@ class Post extends Model
      *
      * @return array
      */
-    public function sluggable(): array
+    public function sluggable()
     {
         return [
             'slug' => [
@@ -23,6 +23,6 @@ class Post extends Model
     }
     public function user()
     {
-return $this->belongsTo(User::class);
+         return $this->belongsTo(User::class);
     }
 }
