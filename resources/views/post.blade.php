@@ -6,14 +6,14 @@
          <div class="col-md-8">
              <div class="card mb-4">
                   <div class="card-body">
-                  <h5 class="card-title">{{ $post->title }}</h5>
-                     <p class="card-text">
+                         <h5 class="card-title">{{ $post->title }}</h5>
+                         <p class="card-text">
                          {{ $post->body }}
-                     </p>
+                         </p>
                          <p class="text-muted mb-0">
                              <em>
                                    &ndash; {{ $post->user->name }}
-                            </em>
+                             </em>
                                {{ $post->created_at->format('d M Y') }}
                          </p>
                  </div>
